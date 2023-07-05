@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster+Two:ital,wght@0,400;1,400;1,700&family=Merriweather:wght@300&display=swap');
+:root{
+  --primary-color:#050E4B;
+  --secondary-color:#E6E6FA;
+  --tertiary-color:#00004d;
+  --font-family: 'Crete Round', serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+body,button{
+  font-family: var(--font-family);
+}
+
+/* ::-webkit-scrollbar{
+  background-color: var(--primary-color);
+  width: 0.3rem;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: var(--secondary-color);
+} */
+
+/* @media screen and (min-width:280px) and (max-width:1080px) {
+  body::-webkit-scrollbar{
+    display: none;
+  }
+} */
