@@ -56,6 +56,7 @@ export const AllText = styled.div`
 export const ButtonContainer = styled.div``;
 export const Button = styled.button`
   background: #8181c0;
+  /* align-items: center; */
   padding: 20px 32px;
   font-size: 16px;
   font-weight: bold;
@@ -74,6 +75,8 @@ export const Button = styled.button`
   .btn2 {
     background: #8181c0;
     color: black;
+    /* height: 10vh;
+    width: 5vw; */
   }
 `;
 
